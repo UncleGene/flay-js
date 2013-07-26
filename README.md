@@ -1,6 +1,6 @@
 # flay-js
 
-TODO: Write a gem description
+Flay your JavaScript!
 
 ## Installation
 
@@ -18,7 +18,7 @@ Or install it yourself as:
 
 ## Usage
 
-For general flay usage please see [flay docummentation](https://github.com/seattlerb/flay)
+For general flay usage please see [flay documentation](https://github.com/seattlerb/flay)
 
 flay-js options:
 

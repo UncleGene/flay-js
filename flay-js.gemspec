@@ -9,7 +9,7 @@ Gem::Specification.new do |gem|
   gem.email         = ["rubify@softover.com"]
   gem.description   = "Helps flay to find duplicate code in javascript files"
   gem.summary       = "Flay your JS"
-  gem.homepage      = ""
+  gem.homepage      = "https://github.com/UncleGene/flay-js"
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
