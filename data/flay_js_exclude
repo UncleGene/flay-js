@@ -1,0 +1,5 @@
+jquery\.js$
+jquery-ui
+\.min\.js$
+\.minified\.js$
+\.\d+\.\d+
