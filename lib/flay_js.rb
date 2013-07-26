@@ -8,7 +8,7 @@ class Flay
 
   def self.options_js o, options
     o.separator nil
-    o.separator "Persistence options:"
+    o.separator "flay-js options:"
     o.separator nil
     o.on("-e", "--exclude PATH", String,
             "Path to file with regular expressions for files to be skipped",
