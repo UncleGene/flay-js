@@ -4,12 +4,13 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |gem|
   gem.name          = "flay-js"
-  gem.version       = "0.0.1"
+  gem.version       = "0.0.2"
   gem.authors       = ["Eugene Kalenkovich"]
   gem.email         = ["rubify@softover.com"]
   gem.description   = "Helps flay to find duplicate code in javascript files"
   gem.summary       = "Flay your JS"
   gem.homepage      = "https://github.com/UncleGene/flay-js"
+  gem.license       = "MIT"
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
