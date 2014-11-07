@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |gem|
   gem.name          = "flay-js"
-  gem.version       = "0.0.2"
+  gem.version       = "0.0.3"
   gem.authors       = ["Eugene Kalenkovich"]
   gem.email         = ["rubify@softover.com"]
   gem.description   = "Helps flay to find duplicate code in javascript files"
@@ -17,5 +17,5 @@ Gem::Specification.new do |gem|
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.require_paths = ["lib"]
   gem.add_dependency 'flay', '~> 2.4'
-  gem.add_dependency 'rkelly'
+  gem.add_dependency 'rkelly-remix'
 end
